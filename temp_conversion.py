@@ -27,3 +27,14 @@ def hotter_temp():
     if fahrenheit_conversion > fahrenheit:
         print('30.2 degrees celsius')
     else: print('85.1 degrees fahrenheit')
+
+# Function to convert fahrenheit to Celsius
+def convert_fahrenheit_to_celsius(num):
+    celsius = float(num - 32) * 5 / 9
+    return celsius
+
+# Function to convert Celsius to fahrenheit
+def convert_celsius_to_fahrenheit(num):
+    fahrenheit = (float(num) * 9 / 5 + 32)
+    return fahrenheit
+    
